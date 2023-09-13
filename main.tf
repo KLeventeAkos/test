@@ -6,3 +6,7 @@ resource "local_file" "test" {
 variable "input" {
   type = string
 }
+
+output "test" {
+  value = module.test
+}
