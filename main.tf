@@ -8,5 +8,5 @@ variable "input" {
 }
 
 output "test" {
-  value = module.test
+  value = "${path.module}/test.txt"
 }
